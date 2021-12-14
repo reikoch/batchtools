@@ -42,7 +42,7 @@ with the following variables:
  \item{source}{\code{character} with list of files to source before execution.}
  \item{load}{\code{character} with list of files to load before execution.}
  \item{array.var}{\code{character(1)} of the array environment variable specified by the cluster functions.}
- \item{array.jobs}{\code{logical(1)} signaling if jobs were submitted using \code{chunks.as.arrayjobs}.}
+ \item{array.jobs}{\code{logical(1)} signaling if jobs were submitted using \code{chunks.as.arrayjobs} or \code{as.arrayjobs}.}
 }
 If your \link{ClusterFunctions} uses a template, \code{\link[brew]{brew}} will be executed in the environment of such
 a collection. Thus all variables available inside the job can be used in the template.
